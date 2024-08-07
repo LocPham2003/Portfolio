@@ -2,10 +2,10 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <div class ="sidenav" id ="sidenav">
   <div id ="selection">
-    <a id="sidebar_item" href="/">Home</a>
-    <a id="sidebar_item" href="/about">About me</a>
-    <a id="sidebar_item" href="/projects">Projects</a>
-    <a id="sidebar_item" href="/blog">Blog</a>
+    <a v-bind:class="isNavBarOpen ? 'sidebar_item_open' : 'sidebar_item_closed'" href="/">Home</a>
+    <a v-bind:class="isNavBarOpen ? 'sidebar_item_open' : 'sidebar_item_closed'" href="/about">About me</a>
+    <a v-bind:class="isNavBarOpen ? 'sidebar_item_open' : 'sidebar_item_closed'" href="/projects">Projects</a>
+    <a v-bind:class="isNavBarOpen ? 'sidebar_item_open' : 'sidebar_item_closed'" href="/blog">Blog</a>
   </div>
   <div id = "toggle" @click="toggleNav">
     <i style="display: block; top: 50%; margin-left: 2px; color: white;" v-bind:class="isNavBarOpen ? 'glyphicon glyphicon-chevron-left' : 'glyphicon glyphicon-chevron-right'"></i>
@@ -30,13 +30,11 @@ export default {
       if (this.isNavBarOpen) {
         document.getElementById("sidenav").style.width = "250px";
         document.getElementById("selection").style.width = "100%";
-        document.getElementById("sidebar_item").style.display = "block";
         document.getElementById("toggle").style.width = "20px";
         document.getElementById("main").style.marginLeft= "250px";
       } else {
         document.getElementById("sidenav").style.width = "20px";
         document.getElementById("selection").style.width = "0";
-        document.getElementById("sidebar_item").style.display = "none";
         document.getElementById("toggle").style.width = "100%";
         document.getElementById("main").style.marginLeft= "20px";
       }
@@ -66,7 +64,7 @@ export default {
   display: flex;
 }
 
-.sidenav a {
+.sidebar_item_open {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
@@ -74,6 +72,10 @@ export default {
   display: block;
   transition: 0.3s;
   font-family: 'Terminal', sans-serif;
+}
+
+.sidebar_item_closed {
+  display: none;
 }
 
 #selection {
