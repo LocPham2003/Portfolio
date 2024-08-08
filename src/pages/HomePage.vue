@@ -100,9 +100,10 @@
           &gt; For any vue-ture inquiries feel free to reach out<br>
           <pre style="background: none; border-style: none; color: #ffffe6; overflow: hidden;">
 ________________________________________
-/ Website is absolutely Phamtastic! \ 
-\ - Loyal follower                  /
-----------------------------------------
+/ He is always willing to take a Loc at my errors and is able to \
+| provide a Phamtastic Vuew often given new insights.            | 
+\ - Broski                                                       /
+-----------------------------------------------------------------
   \ 
     \
         .--.
