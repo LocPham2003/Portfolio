@@ -66,12 +66,15 @@ export default {
 
 .sidebar_item_open {
   padding: 8px 8px 8px 32px;
-  text-decoration: none;
   font-size: 25px;
   color: #818181;
   display: block;
-  transition: 0.3s;
   font-family: 'Terminal', sans-serif;
+}
+
+.sidebar_item_open:hover {
+  color: greenyellow;
+  text-decoration: none;
 }
 
 .sidebar_item_closed {
@@ -94,7 +97,7 @@ export default {
 
 #main {
   margin-left: 10px;
+  height: 100vh;
   transition: margin-left .5s;
-  padding: 16px;
 }
 </style>
