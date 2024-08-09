@@ -139,8 +139,7 @@ ________________________________________
   width: 50%; 
   height: 100%;
   align-items: center;
-  justify-content: left;
-  padding-left: 20px;
+  justify-content: center;
 }
 
 #terminal {
