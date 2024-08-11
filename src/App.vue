@@ -3,9 +3,11 @@
 <div class ="sidenav" id ="sidenav">
   <div id ="selection">
     <a v-bind:class="isNavBarOpen ? 'sidebar_item_open' : 'sidebar_item_closed'" href="/">Home</a>
-    <a v-bind:class="isNavBarOpen ? 'sidebar_item_open' : 'sidebar_item_closed'" href="/about">About me</a>
-    <a v-bind:class="isNavBarOpen ? 'sidebar_item_open' : 'sidebar_item_closed'" href="/projects">Projects</a>
     <a v-bind:class="isNavBarOpen ? 'sidebar_item_open' : 'sidebar_item_closed'" href="/blog">Blog</a>
+    <a v-bind:class="isNavBarOpen ? 'sidebar_item_open' : 'sidebar_item_closed'" href="/projects">Projects</a>
+    <a v-bind:class="isNavBarOpen ? 'sidebar_item_open' : 'sidebar_item_closed'" href="/about">About me</a>
+    <a v-bind:class="isNavBarOpen ? 'sidebar_item_open' : 'sidebar_item_closed'" href="/blog">Contacts</a>
+
   </div>
   <div id = "toggle" @click="toggleNav">
     <i style="display: block; top: 50%; margin-left: 2px; color: white;" v-bind:class="isNavBarOpen ? 'glyphicon glyphicon-chevron-left' : 'glyphicon glyphicon-chevron-right'"></i>
@@ -28,10 +30,10 @@ export default {
     toggleNav() {
       this.isNavBarOpen = !this.isNavBarOpen;
       if (this.isNavBarOpen) {
-        document.getElementById("sidenav").style.width = "250px";
+        document.getElementById("sidenav").style.width = "300px";
         document.getElementById("selection").style.width = "100%";
         document.getElementById("toggle").style.width = "20px";
-        document.getElementById("main").style.marginLeft= "250px";
+        document.getElementById("main").style.marginLeft= "300px";
       } else {
         document.getElementById("sidenav").style.width = "20px";
         document.getElementById("selection").style.width = "0";

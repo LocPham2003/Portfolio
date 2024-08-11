@@ -3,9 +3,10 @@
     <div id = "intro">
       <div style="font-family: 'Terminal', sans-serif; color: whitesmoke;">
         <h1>Loc Pham</h1>
-        <h2>Junior Software Engineer @ <span style="color: #003B95; font-weight: bold;">Booking.com</span>.</h2>
-        <h2><span style="color: red;">Java</span>, <span style="color: yellowgreen;">Python</span>, and <span style="color: #6295CB;">C++</span> enthusiast.</h2>
+        <h2>Junior Software Engineer</h2>
+        <h2><span style="color: red;">Java</span>, <span style="color: yellowgreen;">Python</span>, and <span style="color: #6295CB;">C++</span> enthusiast</h2>
         <hr>
+
       </div>
       
     </div>
