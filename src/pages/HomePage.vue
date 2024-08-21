@@ -3,9 +3,10 @@
     <div id = "intro">
       <div style="font-family: 'Terminal', sans-serif; color: whitesmoke;">
         <h1>Loc Pham</h1>
-        <h2>Junior Software Engineer @ <span style="color: #003B95; font-weight: bold;">Booking.com</span>.</h2>
-        <h2><span style="color: red;">Java</span>, <span style="color: yellowgreen;">Python</span>, and <span style="color: #6295CB;">C++</span> enthusiast.</h2>
+        <h2>Junior Software Engineer</h2>
+        <h2><span style="color: red;">Java</span>, <span style="color: yellowgreen;">Python</span>, and <span style="color: #6295CB;">C++</span> enthusiast</h2>
         <hr>
+
       </div>
       
     </div>
@@ -99,7 +100,7 @@
           &gt; Loading nuts [##################################################] 100% <br>
           &gt; For any vue-ture inquiries feel free to reach out<br>
           <pre style="background: none; border-style: none; color: #ffffe6; overflow: hidden;">
-________________________________________
+_________________________________________________________________
 / He is always willing to take a Loc at my errors and is able to \
 | provide a Phamtastic Vuew often given new insights.            | 
 \ - Broski                                                       /
@@ -139,8 +140,7 @@ ________________________________________
   width: 50%; 
   height: 100%;
   align-items: center;
-  justify-content: left;
-  padding-left: 20px;
+  justify-content: center;
 }
 
 #terminal {

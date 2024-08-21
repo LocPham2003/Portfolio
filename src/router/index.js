@@ -3,6 +3,7 @@ import HomePage from '@/pages/HomePage.vue'
 import BlogPage from '@/pages/BlogPage.vue'
 import AboutPage from '@/pages/AboutPage.vue'
 import ProjectPage from '@/pages/ProjectPage.vue'
+import ContactPage from '@/pages/ContactPage.vue'
 const routes = [
     {
         path: '/',
@@ -23,6 +24,11 @@ const routes = [
         path: '/projects',
         name: 'project',
         component : ProjectPage
+    },
+    {
+        path: '/contacts',
+        name: 'çontacts',
+        component : ContactPage
     }
 ]
 
