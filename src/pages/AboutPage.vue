@@ -22,7 +22,7 @@
 
             <div style="width: 30%;">
                 <img style="width: 100%; height: 100%;" src="../assets/images/me.png">
-                <figcaption style="color: whitesmoke; text-align: center;">4 year-old me at my parents home in Lap Thach, Vietnam</figcaption>
+                <figcaption style="color: whitesmoke; text-align: center;">4 year-old me at my parents' home in Lap Thach, Vietnam</figcaption>
             </div>
             
             

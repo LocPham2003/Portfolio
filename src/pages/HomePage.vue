@@ -129,7 +129,8 @@ _________________________________________________________________
 #main_canvas {
   background-color: #1E1F22;
   height: 100%;
-  padding: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -137,17 +138,17 @@ _________________________________________________________________
 
 #intro {
   display: flex;
-  width: 50%; 
+  width: 40%; 
   height: 100%;
+  margin-right: 20px;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
 }
 
 #terminal {
   display: flex;
   width: 50%;
   height: 100%;
-  padding-right: 20px;
   align-items: center;
   justify-content: center;
 }
